@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noom Tea</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------->
+      <header class="header">
+        <!-- LOGO & NAME ---------------------------------------------------------------------->
+        <div class="logo" onclick="location.href='../index.html'">
+          <img src="../src/images/NoomTea-Logo.png" />
+          <h2>Noom Tea</h2>
+        </div>
+
+        <!-- SIDEBAR MENU --------------------------------------------------------------------->
+        <nav class="navbar sidebar">
+          <div class="exit-icon" onclick="hideSidebar()">
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="Menu.html" onclick="hideSidebar()">Menu</a>
+          <a href="Orders.html" onclick="hideSidebar()">Orders</a>
+          <a href="About.html" onclick="hideSidebar()">About</a>
+          <a href="FindUs.html" onclick="hideSidebar()">Find Us</a>
+        </nav>
+
+        <!-- NAVBAR --------------------------------------------------------------------------->
+        <nav class="navbar">
+          <a href="Menu.html" class="hideOnSmallScreen">Menu</a>
+          <a href="Orders.html" class="hideOnSmallScreen">Orders</a>
+          <a href="About.html" class="hideOnSmallScreen">About</a>
+          <a href="FindUs.html" class="hideOnSmallScreen">Find Us</a>
+          <div class="menu-icon" onclick="showSidebar()">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

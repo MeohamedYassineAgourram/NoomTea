@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noom Tea</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/FindUs.css" />
+    <link rel="stylesheet" href="../styles/Footer.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------->
+      <header class="header">
+        <!-- LOGO & NAME ---------------------------------------------------------------------->
+        <div class="logo" onclick="location.href='../index.html'">
+          <img src="../src/images/NoomTea-Logo.png" />
+          <h2>Noom Tea</h2>
+        </div>
+
+        <!-- SIDEBAR MENU --------------------------------------------------------------------->
+        <nav class="navbar sidebar">
+          <div class="exit-icon" onclick="hideSidebar()">
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="Menu.html" onclick="hideSidebar()">Menu</a>
+          <a href="Orders.html" onclick="hideSidebar()">Orders</a>
+          <a href="About.html" onclick="hideSidebar()">About</a>
+          <a href="FindUs.html" onclick="hideSidebar()">Find Us</a>
+        </nav>
+
+        <!-- NAVBAR --------------------------------------------------------------------------->
+        <nav class="navbar">
+          <a href="Menu.html" class="hideOnSmallScreen">Menu</a>
+          <a href="Orders.html" class="hideOnSmallScreen">Orders</a>
+          <a href="About.html" class="hideOnSmallScreen">About</a>
+          <a href="FindUs.html" class="hideOnSmallScreen">Find Us</a>
+          <div class="menu-icon" onclick="showSidebar()">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <div class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.43969506016!2d2.3382614!3d48.854017999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718826c439e9%3A0x11dc130bd2a269d3!2sNoom%20Tea%20%E2%80%93%20Bubble%20Tea%20Paris!5e0!3m2!1sen!2sfr!4v1750672044778!5m2!1sen!2sfr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <h3>Contact Us</h3>
+      <p>
+        Have a question, craving, or just want to say hi? We’d love to hear from
+        you! Whether it’s about our drinks, your order, or anything in between,
+        the Noom Tea team is here to help. Reach out by message, call, or drop
+        by our shop in Saint‑Germain - we’ll be happy to welcome you!
+      </p>
+      <!-- SOCIAL MEDIA -->
+      <div class="social-icons">
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/noomtea_paris/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-x-twitter"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <footer>
+      <div class="left-side">
+        <img
+          src="../src/images/NoomTea-Logo.png"
+          onclick="location.href='../index.html'"
+        />
+        <div class="footer-text">
+          <h4>Noom Tea</h4>
+          <p>Crafted with Flavor,<br />Sipped with Joy</p>
+        </div>
+      </div>
+
+      <div class="rigth-side">
+        <a href="Menu.html">Menu</a>
+        <a href="Orders.html">Orders</a>
+        <a href="About.html">About</a>
+        <a href="FindUs.html">Find Us</a>
+      </div>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

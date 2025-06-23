@@ -1,0 +1,43 @@
+/* === CONTENT =================================================================================================================*/
+.content {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 50px;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+
+.content h3 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: #f3d58d;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+
+
+/* === SOCIAL MEDIA ======================================================*/
+.social-icons a i {
+  font-size: 22px;
+  color: #f3d58d;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.3);
+  color: #e59d2c;
+}

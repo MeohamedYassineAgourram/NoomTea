@@ -1,0 +1,117 @@
+.best-seller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.best-seller h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #e59d2c;
+}
+
+.best-seller p {
+    font-size: 20px;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.action-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.action-btn button {
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #e59d2c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn1:hover {
+    transform: translateY(-5px);
+    background-color: #ebddc5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.btn2 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease;
+}
+
+.btn2:hover {
+    transform: translateY(-5px);
+}
+
+.products {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.p1, .p2, .p3, .p4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 10px;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover {
+    background-color: #f3d58d;
+    transform: scale(1.08);
+    box-shadow: 0 0 10px #e59d2c;
+}
+
+.products img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.products .text {
+    width: 250px;
+    text-align: left;
+}
+
+.text h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text .price {
+    font-size: 25px;
+    font-weight: 600;
+    color: #e59d2c;
+}
